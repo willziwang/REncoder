@@ -1,0 +1,3 @@
+./workload 50000000 64 10000000 64 0.0 uniform uniform
+./workload 200000000 64 10000000 32 0.0 uniform correlated 32
+./workload 200000000 64 10000000 32 0.0 SOSD uniform ./SOSD/osm_cellids_200M_uint64
